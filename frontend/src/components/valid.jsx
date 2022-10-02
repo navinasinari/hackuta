@@ -60,15 +60,15 @@ const Valid = (props) => {
         {/* <Circle center={position} pathOptions={fillBlueOptions} radius={50} /> */}
       </MapContainer>
 
-      <Grid container spacing={1} direction='row'>
-        <Grid
+      {/* <Grid container spacing={1} direction='row'> */}
+        {/* <Grid
           container
           spacing={3}
           direction="column"
           alignItems="center"
           justify="center"
         >
-          <Grid item xs={3}>
+          <Grid item xs={3}> */}
             <Card sx={{ justifyContent: "center" }}>
               <CardContent>
               <Typography gutterBottom variant="h6" component="div">
@@ -80,11 +80,11 @@ const Valid = (props) => {
                 </Typography>
               </CardContent>
             </Card>
-          </Grid>
-        </Grid>
+          {/* </Grid>
+        </Grid> */}
 
-        <Grid container direction="column" alignItems="center" justify="center">
-          <Grid item xs={3}>
+        {/* <Grid container direction="column" alignItems="center" justify="center">
+          <Grid item xs={3}> */}
             <Card sx={{ maxWidth: 500 }}>
               <CardContent>
                 <Typography gutterBottom variant="h6" component="div">
@@ -103,9 +103,9 @@ const Valid = (props) => {
                 <Button size="small">Learn More</Button>
               </CardActions>
             </Card>
-          </Grid>
-        </Grid>
-      </Grid>
+          {/* </Grid> */}
+        {/* </Grid> */}
+      {/* </Grid> */}
     </div>
   );
 };

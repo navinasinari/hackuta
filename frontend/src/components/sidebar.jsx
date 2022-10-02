@@ -10,7 +10,7 @@ import { Router, Route } from "react-router-dom";
 // Be sure to include styles at some point, probably during your bootstraping
 import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 import "./sidebar.css";
-import { FaHome, IoMdContact } from "react-icons/fa";
+import { FaHome, FaMicroblog, FaBookOpen } from "react-icons/fa";
 
 const Sidebar = (props) => {
   return (
@@ -29,6 +29,7 @@ const Sidebar = (props) => {
         </NavItem>
         <NavItem eventKey="about">
           <NavIcon>
+            <FaBookOpen/>
             <i
               className="fa fa-fw fa-line-chart"
               style={{ fontSize: "1.75em" }}
@@ -38,7 +39,7 @@ const Sidebar = (props) => {
         </NavItem>
         <NavItem eventKey="home">
           <NavIcon>
-            {/* <IoIosContact/> */}
+            <FaMicroblog/>
             <i className="fa fa-fw fa-home" style={{ fontSize: "1.75em" }} />
           </NavIcon>
           <NavText>Contact Us</NavText>
