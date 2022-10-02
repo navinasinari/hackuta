@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
-
+import FormField from './form';
 class Homepage extends Component {
     state = {  } 
     render() { 
-        return (<h6>Homepage</h6>);
+        return (<div>
+            
+            <FormField />
+            </div>);
     }
 }
  

@@ -23,7 +23,7 @@ const Sidebar = props => {
                     Home
                 </NavText>
             </NavItem>
-            <NavItem eventKey="charts">
+            <NavItem eventKey="about">
                 <NavIcon>
                     <i className="fa fa-fw fa-line-chart" style={{ fontSize: '1.75em' }} />
                 </NavIcon>
@@ -35,11 +35,11 @@ const Sidebar = props => {
                         Line Chart
                     </NavText>
                 </NavItem>
-                <NavItem eventKey="charts/barchart">
+                <Na vItem eventKey="charts/barchart">
                     <NavText>
                         Bar Chart
                     </NavText>
-                </NavItem> */}
+                </Na> */}
             </NavItem>
             <NavItem eventKey="home">
                 <NavIcon>
