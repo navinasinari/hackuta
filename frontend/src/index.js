@@ -11,8 +11,8 @@ root.render(
   <React.StrictMode>
     {/* <Homepage /> */}
     {/* <Sidebar /> */}
-    <Valid />
-  {/* <App /> */}
+    {/* <Valid /> */}
+  <App />
   </React.StrictMode>
 );
 
