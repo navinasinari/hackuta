@@ -34,8 +34,12 @@ const FormField = (props) => {
       .get("https://addresscify.herokuapp.com/address?address=" + value)
       .then((res) => {
         var value = res.data;
-        if (value.valid == "Y") navigate("/Valid", { state: { value } });
-        else setError("Invalid address");
+        if (value.valid == "Y") {
+          navigate("/Valid", { state: { value } });
+        }
+        else {
+          setError("Invalid address");
+        }
       })
       .catch((err) => {
         console.log(err);
