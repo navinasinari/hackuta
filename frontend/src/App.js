@@ -5,17 +5,20 @@ import Sidebar from './components/sidebar';
 import Valid from './components/valid'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Fragment } from 'react';
-import { Router, Routes, Route } from 'react-router-dom';
+import { Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 
 const App = () => {
-  //   <Fragment>
-  //   <Router>
-  //     <Routes>
-  //       <Route exact path="*" element={<Homepage />} />
-  //       <Route exact path="/Valid" element={<Valid />} /> 
-  //     </Routes>
-  //   </Router>
-  // </Fragment>
+    return (
+<Fragment>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Homepage />} />
+        <Route exact path="/Valid" element={<Valid />} /> 
+      </Routes>
+    </BrowserRouter>
+  </Fragment>
+    );
+      
 }
 
 export default App;
